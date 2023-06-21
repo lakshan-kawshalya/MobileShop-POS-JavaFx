@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\My Work\Software Development\Java SE\Mobile_Shop_POS_System (JavaFX) 2\MobileShop_POS\dist\MobileShop_POS.jar</jar>
+  <outfile>D:\My Work\Software Development\Java SE\Mobile_Shop_POS_System (JavaFX) 2\MobileShop_POS\dist\Mobile Shop POS System.exe</outfile>
+  <errTitle>Java Environment Not Found</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\My Work\Software Development\Java SE\Mobile_Shop_POS_System (JavaFX) 2\MobileShop_POS\src\com\cyberx\resources\img\icon.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.1.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <opt>--module-path &quot;bin\javafx-sdk-18.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.1</fileVersion>
+    <txtFileVersion>1.0.0.1</txtFileVersion>
+    <fileDescription>Mobile Shop POS</fileDescription>
+    <copyright>NIL</copyright>
+    <productVersion>1.0.0.1</productVersion>
+    <txtProductVersion>1.0.0.1</txtProductVersion>
+    <productName>Mobile Shop POS</productName>
+    <companyName>CyberX</companyName>
+    <internalName>Mobile Shop POS</internalName>
+    <originalFilename>Mobile Shop POS.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

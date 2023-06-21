@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="908.0" styleClass="panel-container" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cyberx.controllers.ReportMgmtController">
+    <children>
+        <AnchorPane prefHeight="348.0" prefWidth="200.0" styleClass="panel" stylesheets="@../css/style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox prefHeight="110.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Button fx:id="btnInvoiceReport" mnemonicParsing="false" onAction="#btnInvoiceReportActionPerformed" prefHeight="50.0" prefWidth="211.0" stylesheets="@../css/style.css" text="Invoice Report">
+                            <styleClass>
+                                <String fx:value="sidebar-btn" />
+                                <String fx:value="sidebar-btn-active" />
+                            </styleClass>
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                            <padding>
+                                <Insets left="15.0" />
+                            </padding>
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="btnGRNReport" mnemonicParsing="false" onAction="#btnGRNReportActionPerformed" prefHeight="50.0" prefWidth="210.0" styleClass="sidebar-btn" stylesheets="@../css/style.css" text="GRN Report">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                            <padding>
+                                <Insets left="15.0" />
+                            </padding>
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                            </VBox.margin>
+                        </Button>
+                  <Button fx:id="btnSaleReport" mnemonicParsing="false" onAction="#btnSaleReportActionPerformed" prefHeight="50.0" prefWidth="210.0" styleClass="sidebar-btn" stylesheets="@../css/style.css" text="Sale Report">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnEmployeeReport" mnemonicParsing="false" onAction="#btnEmployeeReportActionPerformed" prefHeight="50.0" prefWidth="210.0" styleClass="sidebar-btn" stylesheets="@../css/style.css" text="Employee Reports">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnSupplierReport" mnemonicParsing="false" onAction="#btnSupplierReportActionPerformed" prefHeight="50.0" prefWidth="210.0" styleClass="sidebar-btn" stylesheets="@../css/style.css" text="Supplier Reports">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnProductReport" mnemonicParsing="false" onAction="#btnProductReportActionPerformed" prefHeight="50.0" prefWidth="210.0" styleClass="sidebar-btn" stylesheets="@../css/style.css" text="Product Reports">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+      <BorderPane fx:id="contentPane" layoutX="210.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    </children>
+</AnchorPane>
